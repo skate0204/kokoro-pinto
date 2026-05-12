@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000000000000000001 /* KokoroPintoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001 /* KokoroPintoApp.swift */; };
+		A100000000000000000002 /* EmotionFlowModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002 /* EmotionFlowModels.swift */; };
+		A100000000000000000003 /* EmotionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000003 /* EmotionRecord.swift */; };
+		A100000000000000000004 /* WordDictionaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000004 /* WordDictionaryModels.swift */; };
+		A100000000000000000005 /* FlowLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000005 /* FlowLoader.swift */; };
+		A100000000000000000006 /* WordDictionaryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000006 /* WordDictionaryLoader.swift */; };
+		A100000000000000000007 /* FlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000007 /* FlowViewModel.swift */; };
+		A100000000000000000008 /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000008 /* CategorySelectionView.swift */; };
+		A100000000000000000009 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000009 /* HistoryDetailView.swift */; };
+		A10000000000000000000A /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000A /* HistoryListView.swift */; };
+		A10000000000000000000B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000B /* HomeView.swift */; };
+		A10000000000000000000C /* MemoHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000C /* MemoHubView.swift */; };
+		A10000000000000000000D /* QuestionFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000D /* QuestionFlowView.swift */; };
+		A10000000000000000000E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000E /* ResultView.swift */; };
+		A10000000000000000000F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000F /* RootView.swift */; };
+		A100000000000000000010 /* SaveMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000010 /* SaveMemoView.swift */; };
+		A100000000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000011 /* SettingsView.swift */; };
+		A100000000000000000012 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000012 /* Theme.swift */; };
+		A100000000000000000013 /* emotion_flow_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000013 /* emotion_flow_ja.json */; };
+		A100000000000000000014 /* emotion_output_taxonomy_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000014 /* emotion_output_taxonomy_ja.json */; };
+		A100000000000000000015 /* emotion_word_dictionary_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000015 /* emotion_word_dictionary_ja.json */; };
+		A100000000000000000016 /* prototype_result_words_flat_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000016 /* prototype_result_words_flat_ja.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B100000000000000000001 /* KokoroPintoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoroPintoApp.swift; sourceTree = "<group>"; };
+		B1000000000000000000002 /* EmotionFlowModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionFlowModels.swift; sourceTree = "<group>"; };
+		B1000000000000000000003 /* EmotionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecord.swift; sourceTree = "<group>"; };
+		B1000000000000000000004 /* WordDictionaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryModels.swift; sourceTree = "<group>"; };
+		B1000000000000000000005 /* FlowLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLoader.swift; sourceTree = "<group>"; };
+		B1000000000000000000006 /* WordDictionaryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryLoader.swift; sourceTree = "<group>"; };
+		B1000000000000000000007 /* FlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000008 /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+		B1000000000000000000009 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		B100000000000000000000A /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		B100000000000000000000B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B100000000000000000000C /* MemoHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoHubView.swift; sourceTree = "<group>"; };
+		B100000000000000000000D /* QuestionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFlowView.swift; sourceTree = "<group>"; };
+		B100000000000000000000E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B100000000000000000000F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B1000000000000000000010 /* SaveMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMemoView.swift; sourceTree = "<group>"; };
+		B1000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000012 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B1000000000000000000013 /* emotion_flow_ja.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emotion_flow_ja.json; sourceTree = "<group>"; };
+		B1000000000000000000014 /* emotion_output_taxonomy_ja.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emotion_output_taxonomy_ja.json; sourceTree = "<group>"; };
+		B1000000000000000000015 /* emotion_word_dictionary_ja.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emotion_word_dictionary_ja.json; sourceTree = "<group>"; };
+		B1000000000000000000016 /* prototype_result_words_flat_ja.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = prototype_result_words_flat_ja.json; sourceTree = "<group>"; };
+		B1000000000000000000017 /* KokoroPinto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = KokoroPinto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C100000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D100000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D100000000000000000002 /* KokoroPinto */,
+				D100000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D100000000000000000002 /* KokoroPinto */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000000000001 /* KokoroPintoApp.swift */,
+				D100000000000000000003 /* Models */,
+				D100000000000000000004 /* Services */,
+				D100000000000000000005 /* ViewModels */,
+				D100000000000000000006 /* Views */,
+				D100000000000000000008 /* Resources */,
+			);
+			path = KokoroPinto;
+			sourceTree = "<group>";
+		};
+		D100000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000002 /* EmotionFlowModels.swift */,
+				B1000000000000000000003 /* EmotionRecord.swift */,
+				B1000000000000000000004 /* WordDictionaryModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D100000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000005 /* FlowLoader.swift */,
+				B1000000000000000000006 /* WordDictionaryLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D100000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000007 /* FlowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D100000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000008 /* CategorySelectionView.swift */,
+				B1000000000000000000009 /* HistoryDetailView.swift */,
+				B100000000000000000000A /* HistoryListView.swift */,
+				B100000000000000000000B /* HomeView.swift */,
+				B100000000000000000000C /* MemoHubView.swift */,
+				B100000000000000000000D /* QuestionFlowView.swift */,
+				B100000000000000000000E /* ResultView.swift */,
+				B100000000000000000000F /* RootView.swift */,
+				B1000000000000000000010 /* SaveMemoView.swift */,
+				B1000000000000000000011 /* SettingsView.swift */,
+				B1000000000000000000012 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D100000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000017 /* KokoroPinto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D100000000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000013 /* emotion_flow_ja.json */,
+				B1000000000000000000014 /* emotion_output_taxonomy_ja.json */,
+				B1000000000000000000015 /* emotion_word_dictionary_ja.json */,
+				B1000000000000000000016 /* prototype_result_words_flat_ja.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E100000000000000000001 /* KokoroPinto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F100000000000000000003 /* Build configuration list for PBXNativeTarget "KokoroPinto" */;
+			buildPhases = (
+				C100000000000000000002 /* Sources */,
+				C100000000000000000001 /* Frameworks */,
+				C100000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KokoroPinto;
+			productName = KokoroPinto;
+			productReference = B1000000000000000000017 /* KokoroPinto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F100000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E100000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F100000000000000000002 /* Build configuration list for PBXProject "KokoroPinto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D100000000000000000001;
+			productRefGroup = D100000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E100000000000000000001 /* KokoroPinto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C100000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000000000000000013 /* emotion_flow_ja.json in Resources */,
+				A100000000000000000014 /* emotion_output_taxonomy_ja.json in Resources */,
+				A100000000000000000015 /* emotion_word_dictionary_ja.json in Resources */,
+				A100000000000000000016 /* prototype_result_words_flat_ja.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C100000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000000000000000001 /* KokoroPintoApp.swift in Sources */,
+				A100000000000000000002 /* EmotionFlowModels.swift in Sources */,
+				A100000000000000000003 /* EmotionRecord.swift in Sources */,
+				A100000000000000000004 /* WordDictionaryModels.swift in Sources */,
+				A100000000000000000005 /* FlowLoader.swift in Sources */,
+				A100000000000000000006 /* WordDictionaryLoader.swift in Sources */,
+				A100000000000000000007 /* FlowViewModel.swift in Sources */,
+				A100000000000000000008 /* CategorySelectionView.swift in Sources */,
+				A100000000000000000009 /* HistoryDetailView.swift in Sources */,
+				A10000000000000000000A /* HistoryListView.swift in Sources */,
+				A10000000000000000000B /* HomeView.swift in Sources */,
+				A10000000000000000000C /* MemoHubView.swift in Sources */,
+				A10000000000000000000D /* QuestionFlowView.swift in Sources */,
+				A10000000000000000000E /* ResultView.swift in Sources */,
+				A10000000000000000000F /* RootView.swift in Sources */,
+				A100000000000000000010 /* SaveMemoView.swift in Sources */,
+				A100000000000000000011 /* SettingsView.swift in Sources */,
+				A100000000000000000012 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F100000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F100000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F100000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codex.KokoroPinto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F100000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codex.KokoroPinto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F100000000000000000002 /* Build configuration list for PBXProject "KokoroPinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F100000000000000000004 /* Debug */,
+				F100000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F100000000000000000003 /* Build configuration list for PBXNativeTarget "KokoroPinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F100000000000000000006 /* Debug */,
+				F100000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F100000000000000000001 /* Project object */;
+}
